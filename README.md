@@ -33,6 +33,7 @@ g++-multilib unzip device-tree-compiler ncurses-dev python2
 
 
 ## Device
+- 添加 `tspi` 立创开发板泰山派 `4G_HUB2.0_ET100_HS4G_HUB2.0_ET100_HS` 扩展板的支持, 选择 `tspi-rk3566-ext39-ubuntu_defconfig`
 - 添加 `tspi` 立创开发板泰山派 的支持，参考配置文件 `device/rockchip/.chips/rk3566_rk3568/tspi-rk3566-ubuntu_defconfig`
 - 添加 `tspi` 立创开发板泰山派 Distroboot启动方法的支持, 参考配置文件 `device/rockchip/.chips/rk3566_rk3568/tspi-rk3566-ubuntu-distroboot_defconfig`
 
@@ -40,6 +41,9 @@ g++-multilib unzip device-tree-compiler ncurses-dev python2
 ## Ubuntu
 使用 Ubuntu-22.04
 默认用户名密码: `neons`
+
+### 串口
+使用波特率 `115200`
 
 ### ADB
 默认启动 `adb`, 支持USB单线连接到开发板.
